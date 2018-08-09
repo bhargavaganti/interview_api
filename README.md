@@ -73,8 +73,8 @@ Currently project has three api:
 
 ### Create a DB
     $ psql
-    $ CREATE ROLE chemondis WITH CREATEDB CREATEROLE LOGIN;
-    $ CREATE DATABASE schedule OWNER chemondis;
+    $ CREATE ROLE schedule WITH CREATEDB CREATEROLE LOGIN;
+    $ CREATE DATABASE schedule OWNER schedule;
     
 ### Create tables
     $ cd code  # root directory
